@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Train Tracker</h1>
+        <div id="station-list"></div>
+        
+        <div class="add-station">
+            <h2>Add a Station</h2>
+            <input type="text" id="station-name" placeholder="Station Name">
+            <input type="number" id="station-capacity" placeholder="Station Capacity">
+            <button onclick="addStation()">Add Station</button>
+        </div>
+    </div>
+
+    <script src="station.js"></script>
+</body>
+</html>
